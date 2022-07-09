@@ -15,13 +15,19 @@
 }
 
 .header--navbar--img {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
+    margin-top: -6px;
+    margin-right: 8px;
+}
+
+.header__navbar-item--right {
+    margin-right: 30px;
 }
 
 .header__navbar-item {
-    margin: 0 8px;
+    margin: 0 6px;
     position: relative;
     min-height: 26px;
 }
@@ -71,13 +77,12 @@
 }
 
 .header__navbar--icon {
-    font-size: 1.5rem;
-    margin: 0 4px;
+    font-size: 1.4rem;
+    margin: -35px 5px;
 }
 
-.header__navbar-item-link>p {
-    font-size: 1.4rem;
-    margin-top: 2px;
+.header__navbar-item .header__navbar-item-right {
+    margin-top: -5px;
 }
 
 .header__navbar-title--no-pointer {
