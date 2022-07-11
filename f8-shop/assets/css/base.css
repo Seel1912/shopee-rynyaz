@@ -55,3 +55,24 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
+
+.middle {
+    width: 100%;
+    height: 500px;
+    margin-top: -35px;
+}
+
+/* .category {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.category__full-width {
+    width: 100%;
+}
+
+.category__row {
+    display: flex;
+    flex-wrap: wrap;
+} */
