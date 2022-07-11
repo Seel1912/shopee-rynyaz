@@ -6,6 +6,8 @@
 .header__navbar {
     display: flex;
     justify-content: space-between;
+    margin-left: -10px;
+    margin-right: 10px;
 }
 
 .header__navbar-list {
@@ -326,7 +328,7 @@
 .header__notify-information {
     position: absolute;
     top: 118%;
-    width: 271%;
+    width: 249%;
     background-color: var(--white-color);
     right: 0;
     border: 1px solid #d3d3d3;
@@ -386,6 +388,7 @@
 
 .search {
     display: flex;
+    margin-left: -10px;
 }
 
 .search-input {
@@ -432,11 +435,27 @@
 
 .search-rcm {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 10px 0 10px;
+    width: 100%;
+    margin: 0;
 }
+
+.search-rcm-list {
+    margin: 8px 0px 0px 12px;
+    padding: 0;
+    padding-bottom: 4px;
+}
+
+.search-rcm-item:first-child {
+    margin-left: 0px;
+}
+
+.search-rcm-item {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.1rem;
+    margin-left: 12px;
+}
+
 
 .search-bar-input:focus~.search-bar-history {
     display: block;
@@ -498,6 +517,24 @@
     top: 22px;
     left: 55px;
     display: flex;
+    height: 30px;
+}
+
+.search-cart-notify {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+}
+
+.search-cart-notify-item {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 24px;
+    border-radius: 42%;
+    height: 19px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
 }
 
 .search-cart-icon {
@@ -602,4 +639,57 @@
     right: 26.5px;
     top: -26px;
     z-index: 2;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+
+.ads-8 {
+    padding-left: 12px;
+    padding-right: 2px;
+    width: 66.667%;
+    margin-top: 30px;
+}
+
+.ads-8-img {}
+
+.owl-stage-outer {
+    border-radius: 3px;
+    height: 242px;
+}
+
+.owl-dots {
+    left: 32%;
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color) !important;
+}
+
+.ads-4 {
+    padding-left: 3px;
+    padding-right: 12px;
+    width: 33.334%;
+    margin-top: 30px;
+}
+
+
+.ads-4-img {
+    width: 100%;
+    border-radius: 3px;
 }
