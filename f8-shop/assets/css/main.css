@@ -499,10 +499,10 @@
 
 .search-cart {
     position: absolute;
-    top: 60%;
+    top: 135%;
     width: 388px;
     background-color: var(--white-color);
-    right: -29px;
+    right: -27.5px;
     border: 1px solid #d3d3d3;
     transform-origin: calc(100% - 25px) top;
     animation: headerNotifyGrowth ease-in 0.2s;
@@ -518,6 +518,7 @@
     left: 55px;
     display: flex;
     height: 30px;
+    z-index: 2;
 }
 
 .search-cart-notify {
@@ -637,22 +638,8 @@
     border-color: transparent transparent var(--white-color) transparent;
     position: absolute;
     right: 26.5px;
-    top: -26px;
+    top: -25px;
     z-index: 2;
-}
-
-.container {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.container-grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
-
 }
 
 .ads-8 {
@@ -662,10 +649,7 @@
     margin-top: 30px;
 }
 
-.owl-stage-outer {
-    border-radius: 3px;
-    height: 242px;
-}
+
 
 .owl-dots {
     left: 34%;
@@ -699,7 +683,7 @@
 .event {
     width: 1200px;
     max-width: 100%;
-    margin: 30px auto;
+    margin: 25px auto;
     display: flex;
 
 }
@@ -729,6 +713,59 @@
     transform: translateY(-1px);
 }
 
-/* .middle {
+.middle {
     background-color: #F5F5F5;
-} */
+}
+
+.category-margin {
+    width: 100%;
+    background-color: white;
+    /* height: 365px; */
+}
+
+.category-header {
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+.category-header h3 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.category-content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px;
+    border-color: #F4F4F4 #F4F4F4 #F4F4F4 transparent;
+}
+
+.category-owl {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: 9.99996%;
+}
+
+.category-item:first-child {
+    border-color: #F4F4F4;
+}
+
+.category-item-img {
+    width: 80px;
+}
+
+.category-item-description {
+    text-align: center;
+    font-size: 1.4rem;
+}
