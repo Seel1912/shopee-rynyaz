@@ -88,5 +88,18 @@ html {
     margin: 20px auto auto auto;
     padding-top: 15px;
     background-color: white;
-    height: 500px;
+    height: 300px;
+}
+
+.ads {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.last-footer {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
 }
