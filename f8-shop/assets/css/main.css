@@ -821,7 +821,10 @@
 }
 
 .flashsale-item {
-    height: 175px;
+    width: 175px;
+    flex-basis: 16.6667%;
+    height: 200px;
+    display: flex;
 }
 
 .flashsale-content {
@@ -829,8 +832,6 @@
 }
 
 .flashsale-img {
-    flex-basis: 16.6667%;
-    height: 175px;
     position: absolute;
 }
 
@@ -879,11 +880,17 @@
     bottom: -1px;
 }
 
-/* .flashsale-price {}
-
-.flashsale-bar {} */
-
 .flashsale-item-img {
     width: 175px !important;
     height: 175px;
 }
+
+.flashsale-div {
+    display: flex;
+    position: absolute;
+    bottom: -36px;
+    left: 50px;
+    flex-direction: column;
+}
+
+.flashsale-bar {}
